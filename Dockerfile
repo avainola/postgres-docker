@@ -1,8 +1,6 @@
 FROM postgres:13
 
 # POSTGIS
-LABEL maintainer="PostGIS Project - https://postgis.net"
-
 ENV POSTGIS_MAJOR 3
 ENV POSTGIS_VERSION 3.1.4+dfsg-1.pgdg110+1
 
